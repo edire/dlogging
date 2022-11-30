@@ -1,17 +1,17 @@
-# my_webdrivers
+# Description
 
-A Python library for custom logging setup.
+A Python library by Dire Analytics for custom logging.
 
 ## Installation
 
-pip install git+https://github.com/edire/my_logging.git
+pip install git+https://github.com/edire/dlogging.git
 
 ## Usage
 
 ```python
-import my_logging
+import dlogging
 
-logger = my_logging.NewLogger(__file__, use_cd=True)
+logger = dlogging.NewLogger(__file__, use_cd=True)
 logger.info('First Log')
 ```
 
